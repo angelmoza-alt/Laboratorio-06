@@ -1,0 +1,26 @@
+{
+  "Crear Screen": {
+    "prefix": "screen",
+    "scope": "dart",
+    "description": "Crea una nueva screen con Scaffold y AppBar",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class ${1:Nombre}Screen extends StatelessWidget {",
+      "  const ${1:Nombre}Screen({super.key});",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      appBar: AppBar(",
+      "        title: const Text('${2:Titulo}'),",
+      "      ),",
+      "      body: Center(",
+      "        child: ${3:const Text('Contenido de la pantalla')},",
+      "      ),",
+      "    );",
+      "  }",
+      "}"
+    ]
+  }
+}
